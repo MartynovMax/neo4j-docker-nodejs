@@ -1,4 +1,4 @@
-# Express app
+# Neo4j + docker + docker-compose + node.js example
 
 ## Prerequisites
 
@@ -35,8 +35,8 @@ make up
 #### neo4j
 It binds to port docker.host:7474 http://localhost:7474/ This is web interface to db.
 
-Login: `neo4j`
-Password: `test`
+  * Login: `neo4j`
+  * Password: `test`
 
 #### app
-It binds to port docker.host:13000 http://localhost:3000/ There are AngularJS/Bootstrap the simplest client for example. Just click load button.
+It binds to port docker.host:3000 http://localhost:3000/ There are AngularJS/Bootstrap the simplest client for example. Just click load button.
